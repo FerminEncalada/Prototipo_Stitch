@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Detalles de Cancha</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#0d7ff2",
+            "background-light": "#f5f7f8",
+            "background-dark": "#101922",
+          },
+          fontFamily: {
+            "display": ["Lexend"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-800 dark:text-slate-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<!-- TopNavBar -->
+<header class="w-full bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-20 border-b border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-4 text-slate-900 dark:text-slate-50">
+<div class="size-6 text-primary">
+<svg fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C12.8797 7.10865 16.8914 11.1203 22 12C16.8914 12.8797 12.8797 16.8914 12 22C11.1203 16.8914 7.10865 12.8797 2 12C7.10865 11.1203 11.1203 7.10865 12 2Z"></path></svg>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-tight">ReservaCancha</h2>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-slate-700 dark:text-slate-300 hover:text-primary dark:hover:text-primary text-sm font-medium" href="#">Inicio</a>
+<a class="text-primary dark:text-primary text-sm font-medium" href="#">Canchas</a>
+<a class="text-slate-700 dark:text-slate-300 hover:text-primary dark:hover:text-primary text-sm font-medium" href="#">Mis Reservas</a>
+<a class="text-slate-700 dark:text-slate-300 hover:text-primary dark:hover:text-primary text-sm font-medium" href="#">Contacto</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<span class="truncate">Iniciar Sesión</span>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" data-alt="Avatar de usuario" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBzzq_eYNbc8hEbAxlqtN_aEhC70mWtQVAyUL8i6FIZVnVP7QRojEpUdSp9tctsKfEjRVMPlzLp-fAzx4Ny-z2k1UENyNc26NY2cC_pOgE0C69ys0tOTDMe95sNhN0n5w0M4aGWvd3QjtP7aUqLFDg9X4UAQjod2QkF7JUhqDkCci1CheF0Q9V2OUhiepT7_QqcFfIMBf30plVx1HNyVLJ2bqxFdoKZPKsLu1IzG7OqlLK6NwEZz-rV9VamBmLkAp0oYJV3QlWqvA");'></div>
+</div>
+</div>
+</div>
+</header>
+<main class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<!-- Breadcrumbs -->
+<div class="mb-6">
+<div class="flex flex-wrap items-center gap-2">
+<a class="text-slate-500 dark:text-slate-400 hover:text-primary text-sm font-medium leading-normal" href="#">Inicio</a>
+<span class="text-slate-400 dark:text-slate-500 text-sm font-medium leading-normal">/</span>
+<a class="text-slate-500 dark:text-slate-400 hover:text-primary text-sm font-medium leading-normal" href="#">Canchas de Fútbol</a>
+<span class="text-slate-400 dark:text-slate-500 text-sm font-medium leading-normal">/</span>
+<span class="text-slate-800 dark:text-slate-200 text-sm font-medium leading-normal">Cancha Centenario</span>
+</div>
+</div>
+<!-- Page Heading -->
+<div class="mb-6">
+<div class="flex flex-wrap justify-between gap-3 items-start">
+<div class="flex flex-col gap-1">
+<h1 class="text-slate-900 dark:text-slate-50 text-4xl font-black leading-tight tracking-[-0.033em]">Cancha Centenario</h1>
+<p class="text-slate-500 dark:text-slate-400 text-base font-normal leading-normal">Club Deportivo El Campeón, Av. Siempreviva 742</p>
+</div>
+<div class="flex items-center gap-2 bg-background-light dark:bg-background-dark border border-slate-200 dark:border-slate-800 rounded-lg p-2">
+<span class="material-symbols-outlined text-yellow-500 !text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-slate-800 dark:text-slate-200">4.8</span>
+<span class="text-slate-500 dark:text-slate-400 text-sm">(124 reseñas)</span>
+</div>
+</div>
+</div>
+<!-- Image Gallery -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+<div class="w-full bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden rounded-xl min-h-96 md:col-span-2" data-alt="Vista panorámica de la Cancha Centenario desde una esquina, mostrando el césped verde y las gradas." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuARRuXJXAGB9TiFwbG_N8jwwcFKSqODMAdAOywB6NUqloBPckJH7aFy_EIDNQqzDxUU4_5q2t82YmRlS1-fQFehTU6lxw_wbsTsc4hanvTVDtf1eauV4N4d6Go1u-im8_HPbKiSUXjBvYtM-IpnPmfy5HHTEXGuBtqX1eUdRUrTztRiaO6eOi_H2htOrTcUoUmF3LfE4bMOK0gKDsBxmjzD3DA29BC1oo1OldjZpRTQHabHOaFRJAoE-Wx8gSUwsujA7Vtv3mabpg");'></div>
+<div class="grid grid-cols-2 gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" data-alt="Detalle del césped sintético de la cancha." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAIQHdbfz120heA0A0ZfeLRdzzBN6Y8ncTc77vdwUPp6UBn4VYF8uiDw0sYGMsk8_oMhdmhyArRoNWhtSnSMK3f3mwicZS2whwacvkNkz3Y96bWmhYmHrmUEEn5ith7UzZ-SndP19X10h8TBG8phRdWS37wLF9HdrcbDYs-rD4kxpIjInn_measODX-NwuVBmU0vLOUz8O2VheF1BPGFsyOhV0WTJ2s08re31_7DkS1mEPbtawuuvTlWwUqgh5TzQUO0CKuSrUjag");'></div>
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" data-alt="Vista de los arcos de la cancha." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC6_QZVJDS5VXjPq_DZ7iCYX--LqF7nzCRuYxKTeLfNWZ2Bt1G1ZOKdGhjYexaqZQ35qhKmNmuhrsDP7NmA8pVfz_ttIzer6ashHTyf-2d8QdXJxb4YNxlwKqdo25qayCJeHxD3lTRpSlyySKQrF_09FQJTMwaV_giJZdw5jBker_Ds7IhXbCvLB7aEvpwQNpyawNJZPwNwUgV_ltitNqm7qMOeITCTu9Kn1WxTuWhJMtSZn0Aj-XIk3RdoDYBuSt9nH6bKl-KckA");'></div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" data-alt="Gradas vacías del complejo deportivo." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDmJeJo_LxSb_pUMUcW05BtAGycgpvUjPgJ5-MY8rOOJWqcQLKeVfmVdN9UyfBQuZEU0PQrdEiFowl29Z2KG-b09O0GZOSzqLBlt3ngHhuK2trrNi5AhuSH6lOmM5Lqu_4XowE1sjFqUssNYcqts2Aimk-U43W2B4mmwGedkJWerSV5gKx98X4FxoMN5Ak9Zyj2a1CgmrF_pxCs2TG9UFbfahrYvOBR1Pw54ZkDhG3L_joQaezEW_lT1emJ2unMkvfaVTXhQ_JRcg");'></div>
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" data-alt="Entrada al complejo deportivo El Campeón." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC4irx5Y-nPQkIUrfOgSsEj86eaGAgAT2weNtkFdlxjMibUXCWk-4gp3t7AlYlQFF-JZgF6rK4xbuJqhHVqvStE9nDbWI5Z7P3q2eQ5O5lX3HzOnMKSJgSL9UOs8QIEciEpxrTeMm-kIRvwE4yhlcSQbUeIo2baNRynDfqbodn02PTDy9LfywJvhUnEcbO_mTBpw2QLNDmYsKIylPW-AmkTaQvcDpLmfnVkB_8K8nyfY-xlQ38za8T0QHwgkO-kh9WWBNcdQI5rDg");'></div>
+</div>
+</div>
+<!-- Main Content Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+<!-- Left Column: Details -->
+<div class="lg:col-span-2 flex flex-col gap-10">
+<!-- Description Section -->
+<div>
+<h2 class="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-4 border-b border-slate-200 dark:border-slate-800 pb-2">Descripción</h2>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+              La Cancha Centenario es nuestra instalación estrella, ideal para partidos de fútbol 7. Cuenta con césped sintético de última generación que garantiza un excelente rodaje del balón y minimiza el riesgo de lesiones. Perfectamente iluminada para partidos nocturnos y rodeada de gradas para que tus amigos y familiares no se pierdan ni un solo momento del partido.
+            </p>
+</div>
+<!-- Services Section -->
+<div>
+<h2 class="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-4 border-b border-slate-200 dark:border-slate-800 pb-2">Servicios Incluidos</h2>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary !text-2xl p-2 bg-primary/10 rounded-lg">shower</span>
+<span class="font-medium text-slate-700 dark:text-slate-300">Vestuarios y Duchas</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary !text-2xl p-2 bg-primary/10 rounded-lg">sports_soccer</span>
+<span class="font-medium text-slate-700 dark:text-slate-300">Alquiler de Balones</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary !text-2xl p-2 bg-primary/10 rounded-lg">water_drop</span>
+<span class="font-medium text-slate-700 dark:text-slate-300">Hidratación</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary !text-2xl p-2 bg-primary/10 rounded-lg">local_parking</span>
+<span class="font-medium text-slate-700 dark:text-slate-300">Estacionamiento</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary !text-2xl p-2 bg-primary/10 rounded-lg">lightbulb</span>
+<span class="font-medium text-slate-700 dark:text-slate-300">Iluminación Nocturna</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary !text-2xl p-2 bg-primary/10 rounded-lg">wifi</span>
+<span class="font-medium text-slate-700 dark:text-slate-300">Wi-Fi Gratuito</span>
+</div>
+</div>
+</div>
+<!-- Rules Section -->
+<div>
+<h2 class="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-4 border-b border-slate-200 dark:border-slate-800 pb-2">Reglas de la Cancha</h2>
+<ul class="list-disc list-inside space-y-2 text-slate-600 dark:text-slate-300">
+<li>Se requiere el uso de calzado deportivo adecuado (zapatillas de fútbol sala o multitaco).</li>
+<li>Prohibido el ingreso de alimentos y bebidas alcohólicas al campo de juego.</li>
+<li>Respetar el horario de la reserva. Hay una tolerancia máxima de 10 minutos.</li>
+<li>Cualquier daño a las instalaciones será responsabilidad del titular de la reserva.</li>
+</ul>
+</div>
+</div>
+<!-- Right Column: Booking Module -->
+<aside class="lg:col-span-1">
+<div class="sticky top-24 bg-white dark:bg-slate-900/70 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-lg">
+<h3 class="text-xl font-bold text-slate-900 dark:text-slate-50 mb-1">Selecciona Fecha y Hora</h3>
+<p class="text-slate-500 dark:text-slate-400 mb-6 text-sm">Precio por hora: $35.00</p>
+<!-- Calendar -->
+<div class="mb-6">
+<div class="flex justify-between items-center mb-4">
+<button class="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800"><span class="material-symbols-outlined">chevron_left</span></button>
+<span class="font-semibold text-slate-800 dark:text-slate-200">Julio 2024</span>
+<button class="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800"><span class="material-symbols-outlined">chevron_right</span></button>
+</div>
+<div class="grid grid-cols-7 gap-1 text-center text-sm">
+<div class="text-slate-500 dark:text-slate-400 font-medium">Lu</div>
+<div class="text-slate-500 dark:text-slate-400 font-medium">Ma</div>
+<div class="text-slate-500 dark:text-slate-400 font-medium">Mi</div>
+<div class="text-slate-500 dark:text-slate-400 font-medium">Ju</div>
+<div class="text-slate-500 dark:text-slate-400 font-medium">Vi</div>
+<div class="text-slate-500 dark:text-slate-400 font-medium">Sá</div>
+<div class="text-slate-500 dark:text-slate-400 font-medium">Do</div>
+<!-- Calendar days -->
+<div class="text-slate-400 dark:text-slate-600">24</div><div class="text-slate-400 dark:text-slate-600">25</div><div class="text-slate-400 dark:text-slate-600">26</div><div class="text-slate-400 dark:text-slate-600">27</div><div class="text-slate-400 dark:text-slate-600">28</div><div class="text-slate-400 dark:text-slate-600">29</div><div class="text-slate-400 dark:text-slate-600">30</div>
+<div><button class="w-9 h-9 flex items-center justify-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-800">1</button></div>
+<div><button class="w-9 h-9 flex items-center justify-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-800">2</button></div>
+<div><button class="w-9 h-9 flex items-center justify-center rounded-full text-primary font-bold bg-primary/10 ring-2 ring-primary">3</button></div>
+<div><button class="w-9 h-9 flex items-center justify-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-800">4</button></div>
+<div><button class="w-9 h-9 flex items-center justify-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-800">5</button></div>
+<div><button class="w-9 h-9 flex items-center justify-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-800">6</button></div>
+<div class="text-slate-400 dark:text-slate-600">7</div>
+<!-- More days... -->
+</div>
+</div>
+<!-- Time Slots -->
+<div class="mb-6">
+<h4 class="font-semibold text-slate-800 dark:text-slate-200 mb-3">Horarios Disponibles</h4>
+<div class="grid grid-cols-3 gap-2">
+<button class="p-2 rounded-lg border border-slate-300 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary hover:text-primary transition-colors text-sm">17:00</button>
+<button class="p-2 rounded-lg border border-slate-300 dark:border-slate-700 bg-primary text-white border-primary text-sm font-bold">18:00</button>
+<button class="p-2 rounded-lg border border-slate-300 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary hover:text-primary transition-colors text-sm">19:00</button>
+<button class="p-2 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-slate-800 text-slate-400 dark:text-slate-600 cursor-not-allowed text-sm">20:00</button>
+<button class="p-2 rounded-lg border border-slate-300 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary hover:text-primary transition-colors text-sm">21:00</button>
+<button class="p-2 rounded-lg border border-slate-300 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary hover:text-primary transition-colors text-sm">22:00</button>
+</div>
+</div>
+<!-- CTA Button -->
+<button class="w-full flex items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<span class="truncate">Reservar esta cancha</span>
+</button>
+</div>
+</aside>
+</div>
+</main>
+</div>
+</body></html>
